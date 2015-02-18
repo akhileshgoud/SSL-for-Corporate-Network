@@ -7,7 +7,6 @@ public class certauth extends UnicastRemoteObject implements servin
 {
 	certauth() throws RemoteException
 	{
-		//////////
 		System.out.println("Constructror");
 	}
 	public String commun(String dn,String id) throws RemoteException
